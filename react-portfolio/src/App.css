@@ -40,3 +40,40 @@
 .read-the-docs {
   color: #888;
 }
+
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --accent-color: #e74c3c;
+  --light-color: #ecf0f1;
+  --dark-color: #2c3e50;
+}
+
+body {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+.nav-link.active {
+  color: var(--accent-color) !important;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.card {
+  border-color: var(--secondary-color);
+}
+
+.footer {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
