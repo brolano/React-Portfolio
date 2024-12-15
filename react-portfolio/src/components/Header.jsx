@@ -5,7 +5,7 @@ function Header() {
     <header className="bg-primary">
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container">
-          <h1 className="navbar-brand fs-2 mb-0">Brian solano</h1>
+          <h1 className="navbar-brand fs-2 mb-0">Brian Solano</h1>
           <button
             className="navbar-toggler"
             type="button"
