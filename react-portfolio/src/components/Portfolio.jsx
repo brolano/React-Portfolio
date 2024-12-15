@@ -2,7 +2,7 @@ function Portfolio() {
     const projects = [
       {
         title: 'Employee Tracker',
-        image: '/api/placeholder/350/200',
+        image: './src/assets/images/planner photo.webp',
         githubUrl: 'https://github.com/brolano/Employee-Tracker',
         description: 'A typescript program application that provides user a content management system to view and interact with information in the local database.'
       },
