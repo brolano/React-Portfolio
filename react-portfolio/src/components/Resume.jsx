@@ -5,22 +5,18 @@ function Resume() {
         'CSS3',
         'JavaScript (ES6+)',
         'React',
-        'Redux',
         'Bootstrap',
         'Responsive Design'
       ],
       'Back-end': [
         'Node.js',
         'Express',
-        'MongoDB',
         'MySQL',
         'RESTful APIs',
-        'GraphQL'
       ],
       'Tools & Methods': [
         'Git',
         'Webpack',
-        'Jest',
         'Agile Development',
         'CI/CD',
         'PWA Development'
