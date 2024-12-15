@@ -6,7 +6,7 @@ function About() {
           <div className="col-md-4 mb-4">
             <img
               src="/api/placeholder/200/200"
-              alt="John Doe"
+              alt="Brian Solano"
               className="img-fluid rounded-circle"
             />
           </div>
