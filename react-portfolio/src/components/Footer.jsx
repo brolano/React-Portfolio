@@ -2,18 +2,8 @@ function Footer() {
     const socialLinks = [
       {
         name: 'GitHub',
-        url: 'https://github.com/johndoe',
+        url: 'https://github.com/brolano',
         icon: '📚'
-      },
-      {
-        name: 'LinkedIn',
-        url: 'https://linkedin.com/in/johndoe',
-        icon: '💼'
-      },
-      {
-        name: 'Stack Overflow',
-        url: 'https://stackoverflow.com/users/johndoe',
-        icon: '📝'
       }
     ]
   
