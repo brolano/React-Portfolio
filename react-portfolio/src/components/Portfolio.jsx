@@ -2,7 +2,7 @@ import Project from './Project';
 import Image1 from '../assets/images/database.jpeg';
 import Image2 from '../assets/images/vehiclebuilder.webp';
 import Image3 from '../assets/images/readme2.webp';
-import Image4 from '../assets/images/planner photo.webp';;
+import Image4 from '../assets/images/planner photo.webp';
 
 function Portfolio() {
     const projects = [

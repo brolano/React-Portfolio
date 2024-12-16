@@ -1,3 +1,5 @@
+import Resume1 from '../assets/images/Resume.pdf'
+
 function Resume() {
     const proficiencies = {
       'Front-end': [
@@ -24,18 +26,24 @@ function Resume() {
       ]
     }
   
+    const handleDownload = () => {
+      const link = document.createElement('a');
+      link.href = Resume1;
+      link.download = 'Resume.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    };
+
     return (
       <section className="container">
         <h2 className="display-4 mb-4">Resume</h2>
-        <div className="mb-4">
-          <a
-            href="./src/assets/images/Resume.pdf"
-            download
-            className="btn btn-primary btn-lg"
-          >
-            Download Resume
-          </a>
-        </div>
+        <button 
+        onClick={handleDownload}
+        className="download-button"
+      >
+        Download Resume
+      </button>
   
         <div className="row">
           {Object.entries(proficiencies).map(([category, skills]) => (
