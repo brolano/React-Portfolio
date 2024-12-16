@@ -1,8 +1,8 @@
-function Project({ title, image, deployedUrl, githubUrl, description }) {
+function Project({ title, imageUrl, deployedUrl, githubUrl, description }) {
     return (
       <div className="card h-100">
         <img
-          src={image}
+          src={imageUrl}
           alt={title}
           className="card-img-top"
         />
