@@ -13,7 +13,7 @@ function Resume() {
       'Back-end': [
         'Node.js',
         'Express',
-        'MySQL',
+        'PostgreSQL',
         'RESTful APIs',
       ],
       'Tools & Methods': [
