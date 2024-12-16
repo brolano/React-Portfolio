@@ -22,7 +22,7 @@ function About() {
                 </p>
                 <p className="card-text">
                   When I'm not coding, you can find me contributing to open-source
-                  projects, writing technical blog posts, or exploring new technologies.
+                  projects, writing music, or exploring new technologies.
                 </p>
               </div>
             </div>
