@@ -29,7 +29,7 @@ function Resume() {
         <h2 className="display-4 mb-4">Resume</h2>
         <div className="mb-4">
           <a
-            href="./public/images/Resume.pdf"
+            href="./src/assets/images/Resume.pdf"
             download
             className="btn btn-primary btn-lg"
           >
