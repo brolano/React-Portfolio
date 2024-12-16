@@ -9,7 +9,7 @@
 - [Contributing](#contributing)
 - [Credits](#credits)
 - [Questions](#questions)
-- [React+Vite](#react-+-vite)
+- [React+Vite](#react--vite)
 
 ## Description
 Brian Solano's portfolio that leverages React to display brief content about my skills and offers a way for future employers to contact me. Also provides access to the most updated resume version if desired.
