@@ -1,3 +1,5 @@
+import coverPhoto from '../assets/images/coverphoto.jpg'
+
 function About() {
     return (
       <section className="container">
@@ -5,7 +7,7 @@ function About() {
         <div className="row align-items-start">
           <div className="col-md-4 mb-4">
             <img
-              src="src/assets/images/coverphoto.jpg"
+              src= { coverPhoto }
               alt="Brian Solano"
               className="img-fluid rounded-circle"
             />
