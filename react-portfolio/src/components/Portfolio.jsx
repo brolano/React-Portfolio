@@ -1,3 +1,5 @@
+import Project from './Project'
+
 function Portfolio() {
     const projects = [
       {
@@ -33,37 +35,7 @@ function Portfolio() {
         <div className="row g-4">
           {projects.map((project, index) => (
             <div key={index} className="col-md-6 col-lg-4">
-              <div className="card h-100">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="card-img-top"
-                />
-                <div className="card-body">
-                  <h3 className="card-title h5">{project.title}</h3>
-                  <p className="card-text">{project.description}</p>
-                </div>
-                <div className="card-footer bg-transparent border-top-0">
-                  <div className="d-flex justify-content-between">
-                    <a
-                      href={project.deployedUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn btn-primary btn-sm"
-                    >
-                      Live Demo
-                    </a>
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn btn-outline-primary btn-sm"
-                    >
-                      GitHub
-                    </a>
-                  </div>
-                </div>
-              </div>
+              <Project {...project} />
             </div>
           ))}
         </div>
