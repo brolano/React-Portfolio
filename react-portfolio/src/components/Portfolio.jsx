@@ -16,7 +16,7 @@ function Portfolio() {
         title: 'Vehicle Builder',
         imageUrl: Image2,
         githubUrl: 'https://github.com/brolano/Vehicle-Builder',
-        description: 'A node program that leverages typescript to build a vehicle and run commands to perofmrm actions using the CLI.'
+        description: 'A node program that leverages typescript to build a vehicle and run commands to perform actions using the CLI.'
       },
       {
         title: 'Professional README Generator',

@@ -5,7 +5,7 @@ function About() {
         <div className="row align-items-start">
           <div className="col-md-4 mb-4">
             <img
-              src="/api/placeholder/200/200"
+              src="src/assets/images/coverphoto.jpg"
               alt="Brian Solano"
               className="img-fluid rounded-circle"
             />
